@@ -1,5 +1,5 @@
 import express from 'express';
-import { fetchMetadata } from '../controllers/MetadataController.js'; // Use curly braces for named import
+import { fetchMetadata } from '../controllers/MetadataController.js';
 
 const router = express.Router();
 

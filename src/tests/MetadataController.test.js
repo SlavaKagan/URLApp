@@ -1,5 +1,5 @@
-import { fetchMetadata as _fetchMetadata } from '../controllers/MetadataController';
-import { fetchMetadata as __fetchMetadata } from '../services/MetadataService';
+import { fetchMetadata as _fetchMetadata } from '../controllers/MetadataController.js';
+import { fetchMetadata as __fetchMetadata } from '../services/MetadataService.js';
 
 jest.mock('../services/MetadataService', () => ({
   fetchMetadata: jest.fn(),
